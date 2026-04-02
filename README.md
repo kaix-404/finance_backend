@@ -163,7 +163,7 @@ Request → Controller → Service → Utils → Database
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/kaix-404/finance_backend
 cd finance-backend
 npm install
 ```
@@ -171,8 +171,8 @@ npm install
 Create `.env`:
 
 ```
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
+MONGO_URI=<your_mongodb_uri>
+JWT_SECRET=<your_secret>
 ```
 
 Run:
