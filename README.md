@@ -151,10 +151,14 @@ Request → Controller → Service → Utils → Database
 
 ```json
 [
-  {
-    "_id": { "year": 2026, "month": 4, "type": "income" },
-    "total": 5000
-  }
+    {
+        "_id": { "year": 2026, "month": 4, "type": "expense" },
+        "total": 2000
+    },
+    {
+        "_id": { "year": 2026, "month": 4, "type": "income" },
+        "total": 5000
+    }
 ]
 ```
 
