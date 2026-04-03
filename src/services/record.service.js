@@ -9,7 +9,7 @@ export const createRecordService = async (data, userId) => {
   });
 };
 
-// GET (pagination + filtering)
+// GET 
 export const getRecordsService = async (query) => {
   const { page = 1, limit = 10 } = query;
 

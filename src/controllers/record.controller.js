@@ -22,7 +22,7 @@ export const createRecord = async (req, res) => {
   }
 };
 
-// GET RECORDS (pagination + filtering handled in service)
+// GET RECORDS 
 export const getRecords = async (req, res) => {
   try {
     const data = await getRecordsService(req.query);
