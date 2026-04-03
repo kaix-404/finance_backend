@@ -151,10 +151,14 @@ Request → Controller → Service → Utils → Database
 
 ```json
 [
-  {
-    "_id": { "year": 2026, "month": 4, "type": "income" },
-    "total": 5000
-  }
+    {
+        "_id": { "year": 2026, "month": 4, "type": "expense" },
+        "total": 2000
+    },
+    {
+        "_id": { "year": 2026, "month": 4, "type": "income" },
+        "total": 5000
+    }
 ]
 ```
 
@@ -163,7 +167,7 @@ Request → Controller → Service → Utils → Database
 ## ⚙️ Setup Instructions
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/kaix-404/finance_backend
 cd finance-backend
 npm install
 ```
@@ -171,8 +175,8 @@ npm install
 Create `.env`:
 
 ```
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
+MONGO_URI=<your_mongodb_uri>
+JWT_SECRET=<your_secret>
 ```
 
 Run:
